@@ -10014,3 +10014,12 @@ body {
 .navbar a {
   color: #fff !important;
 }
+
+h1 {
+  margin-bottom: 30px !important;
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(204, 204, 204, 0.8) !important;
+  padding: 20px 40px !important;
+}
