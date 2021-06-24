@@ -35,7 +35,11 @@
                 @if (Route::has('login'))
                     <div>
                         @auth
-                            <a href="{{ url('/home') }}">Home</a>
+                            <a href="{{ url('/') }}">Home</a>
+                            <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit()">Logout</a>
+                            <form action="{{ route('logout') }}" id="logout-form" method="POST" style="display: none">
+                                @csrf
+                            </form>
                         @else
                             <a href="{{ route('login') }}">Log in</a>
 
