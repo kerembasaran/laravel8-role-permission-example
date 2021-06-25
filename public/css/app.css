@@ -10008,11 +10008,18 @@ body {
 
 .navbar {
   background-color: #1E2632 !important;
-  box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.3) !important;
-  margin-bottom: 40px !important;
 }
 .navbar a {
   color: #fff !important;
+}
+
+.sub-nav {
+  background-color: #ffffff !important;
+  box-shadow: 0 5px 10px 0 rgba(204, 204, 204, 0.3) !important;
+  margin-bottom: 40px !important;
+}
+.sub-nav a {
+  color: #1E2632 !important;
 }
 
 h1 {
