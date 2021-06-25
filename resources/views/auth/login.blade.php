@@ -25,4 +25,5 @@
         </div>
         <button type="submit" class="btn btn-primary">Login</button>
     </form>
+    <a href="{{ route('password.request') }}">Forgotten your password? Reset it here</a>
 @endsection
